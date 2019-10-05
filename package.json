@@ -1,11 +1,11 @@
 {
   "name": "react-floaterjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Make your images in react float",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack && tsc --emitDeclarationOnly"
   },
   "files": [
     "dist",
@@ -42,5 +42,5 @@
   "dependencies": {
     "@babel/preset-typescript": "^7.6.0"
   },
-  "prepublishOnly": "yarn build && tsc --emitDeclarationOnly"
+  "prepublishOnly": "yarn build"
 }

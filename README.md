@@ -14,7 +14,7 @@ $ yarn add react-floaterjs
 
 Inside some React component
 
-```
+```js
 import ReactFloaterJs from 'react-floaterjs'
 
 <ReactFloaterJs>
